@@ -9,7 +9,7 @@ function App({ authService }) {
     <div className={styles.app}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/CardMaker">
             <Login authService={authService} />
           </Route>
           <Route path="/maker">
